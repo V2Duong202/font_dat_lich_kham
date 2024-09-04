@@ -1,0 +1,38 @@
+{
+  "name": "itooth_app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "dev:fast": "next dev --turbo",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format:fix": "prettier --write . --cache",
+    "format:check": "prettier --check . --cache"
+  },
+  "dependencies": {
+    "@react-pdf/renderer": "^3.1.14",
+    "@tanstack/react-query": "^5.4.3",
+    "antd": "^5.10.3",
+    "axios": "^1.6.0",
+    "clsx": "^2.0.0",
+    "express": "^4.19.2",
+    "jwt-decode": "^4.0.0",
+    "moment": "^2.29.4",
+    "next": "^14.0.1",
+    "react": "^18",
+    "react-countup": "^6.5.0",
+    "react-dom": "^18",
+    "react-icons": "^4.11.0",
+    "swiper": "^11.0.3",
+    "typewriter-effect": "^2.21.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.0",
+    "postcss": "^8",
+    "tailwindcss": "^3"
+  }
+}
